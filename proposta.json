@@ -1,0 +1,227 @@
+{
+  "slug": "reabilitacao-total",
+  "negocio": {
+    "nome": "Reabilitação Total",
+    "logo": "brand/lockup.png",
+    "whatsapp": "5561981017093",
+    "funcionamento": {
+      "seg": "07:00-20:00",
+      "ter": "07:00-20:00",
+      "qua": "07:00-20:00",
+      "qui": "07:00-20:00",
+      "sex": "07:00-20:00",
+      "sab": null,
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Asa Norte · Brasília",
+        "endereco": "SCLRN 716, Bloco B, Loja 07 – Asa Norte, Brasília – DF, 70770-532",
+        "telefone": "(61) 3349-7178 · WhatsApp (61) 98101-7093",
+        "horario": "Segunda a sexta, das 7h às 20h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#1f5c2c",
+    "brand2": "#2f7a35",
+    "ink": "#1c2a1f",
+    "bg": "#ffffff",
+    "pulse": "#5a9a2a",
+    "radius": "12px",
+    "registro": "clinico",
+    "fontDisplay": "Poppins",
+    "fontBody": "Open Sans",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          { "texto": "Tratamentos", "href": "#tratamentos" },
+          { "texto": "Estrutura", "href": "#estrutura" },
+          { "texto": "Dúvidas", "href": "#faq" },
+          { "texto": "Onde fica", "href": "#unidades" }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Fisioterapia · Asa Norte",
+        "h1": "Da piscina ao pilates, tudo num só lugar",
+        "lead": "Ortopedia, hidroterapia, RPG, fisioterapia pélvica, acupuntura e pilates na 716 Norte, desde 2004. Com mais de 40 convênios.",
+        "cta": "Agendar pelo WhatsApp",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "imagem": "midia/piscina.jpg",
+        "imagemAlt": "Piscina coberta e aquecida da Reabilitação Total, com raias azuis e barras de apoio",
+        "tarja": [
+          "Desde 2004 na 716 Norte",
+          "Piscina coberta e aquecida",
+          "4,9 no Google · 562 avaliações",
+          "Mais de 40 convênios",
+          "Seg a sex, das 7h às 20h"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "nomes",
+      "data": {
+        "titulo": "Alguns dos convênios atendidos",
+        "itens": ["Saúde Caixa", "Amil", "Omint", "Care Plus", "Gama Saúde", "Notre Dame", "Fusex", "Marinha", "CBMDF", "Fascal", "STF-Med", "Sis Senado", "Pró-Saúde TJDFT", "Pró-Social TRF", "Plan Assiste", "TRE Saúde", "TRT Saúde", "Bacen", "Serpro", "Infraero", "Petrobras", "Real Grandeza", "E-Vida", "Casembrapa", "Postal Saúde", "Unafisco"]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "Desde 2004",
+        "citacao": "Pensei em como gostaria o local em que minha avó fosse atendida.",
+        "autor": "Leila de Freitas, fisioterapeuta e fundadora",
+        "texto": [
+          "A Leila abriu a clínica com uma ideia simples: cada paciente é atendido como alguém da família. Começou numa sala pequena e foi crescendo conforme os pacientes pediam mais.",
+          "Vinte anos depois, a casa tem três andares, piscina, ginásio e uma equipe de várias especialidades. O que ela mais comemora continua sendo o paciente que volta anos depois, porque foi bem cuidado da primeira vez."
+        ],
+        "imagem": "midia/sala.jpg",
+        "imagemAlt": "Sala de atendimento da clínica, com maca verde, janela com persianas e quadro oriental na parede"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "cartoes",
+      "data": {
+        "titulo": "O que se trata na Reabilitação Total",
+        "lead": "O fisioterapeuta avalia e monta o plano. Se fizer sentido, ele combina água, solo e aparelhos.",
+        "itens": [
+          { "nome": "Fisioterapia ortopédica", "descricao": "Coluna, joelho, ombro, fraturas e lesões do esporte, com preparo antes e reabilitação depois da cirurgia.", "icone": "osso" },
+          { "nome": "Hidroterapia", "descricao": "Exercícios na piscina aquecida, onde a água tira peso das articulações e permite mover com menos dor.", "icone": "gota" },
+          { "nome": "Pilates", "descricao": "Estúdio com aparelhos para fortalecer, alongar e manter o que a fisioterapia conquistou.", "icone": "spa" },
+          { "nome": "RPG", "descricao": "Reeducação postural global para dores que vêm da postura e da coluna.", "icone": "coluna" },
+          { "nome": "Fisioterapia pélvica", "descricao": "Uroginecológica: perda de urina, dor pélvica e recuperação depois do parto ou de cirurgia.", "icone": "mulher" },
+          { "nome": "Gestantes", "descricao": "Acompanhamento antes e depois do parto, para a coluna, a pelve e o retorno à rotina.", "icone": "bebe" },
+          { "nome": "Fisioterapia vestibular", "descricao": "Para tontura, vertigem e labirintite, com exercícios de equilíbrio.", "icone": "cerebro" },
+          { "nome": "ATM", "descricao": "Dor na mandíbula, estalos e travamento ao abrir a boca.", "icone": "rosto" },
+          { "nome": "Acupuntura", "descricao": "Em sala própria, como complemento para dor e para o tratamento como um todo.", "icone": "folha" }
+        ]
+      }
+    },
+    { "custom": "blocos/andares.html" },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "Vinte anos na Asa Norte",
+        "itens": [
+          { "valor": "2004", "rotulo": "o ano em que a clínica abriu" },
+          { "valor": "4,9", "rotulo": "nota no Google" },
+          { "valor": "562", "rotulo": "avaliações de pacientes", "contar": 562 },
+          { "valor": "40+", "rotulo": "convênios aceitos" }
+        ]
+      }
+    },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Como se marca",
+        "titulo": "Mande o pedido médico e a recepção cuida do resto",
+        "lead": "Carteirinha e pedido pelo WhatsApp: a recepção confere o convênio, encaixa o horário e avisa quando a guia estiver acabando.",
+        "cta": "Chamar no WhatsApp",
+        "contato": "Reabilitação Total",
+        "mensagens": [
+          { "de": "paciente", "texto": "Oi! Tenho pedido de 10 sessões de fisio para o joelho. Vocês atendem Saúde Caixa?" },
+          { "de": "clinica", "texto": "Oi! Atendemos sim. Me manda uma foto do pedido e da carteirinha que eu já vejo a autorização." },
+          { "de": "paciente", "texto": "Mandei. Só consigo depois das 18h." },
+          { "de": "clinica", "texto": "Tranquilo, a gente vai até as 20h. Terça e quinta às 18h30 servem?" },
+          { "de": "clinica", "texto": "E quando as sessões estiverem acabando eu te aviso, para você renovar o pedido sem parar o tratamento." }
+        ]
+      }
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Do pedido médico à alta",
+        "itens": [
+          { "titulo": "Você manda o pedido", "texto": "Pelo WhatsApp, com a carteirinha do convênio. Particular também atende.", "icone": "conversa" },
+          { "titulo": "Avaliação", "texto": "O fisioterapeuta examina, entende a queixa e define o objetivo do tratamento.", "icone": "estetoscopio" },
+          { "titulo": "Plano de sessões", "texto": "No solo, na piscina, no pilates ou combinando, com horários das 7h às 20h.", "icone": "agenda" },
+          { "titulo": "Reavaliação", "texto": "Ao fim das sessões, revê o que mudou e decide se renova o pedido ou se é alta.", "icone": "check" }
+        ]
+      }
+    },
+    {
+      "id": "galeria",
+      "variant": "mosaico",
+      "data": {
+        "titulo": "Por dentro da clínica",
+        "itens": [
+          { "imagem": "midia/pilates.jpg", "legenda": "Estúdio de pilates, de frente para as janelas" },
+          { "imagem": "midia/ginasio.jpg", "legenda": "Ginásio com macas e aparelhos" },
+          { "imagem": "midia/consultorio.jpg", "legenda": "Sala de avaliação" }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "O que os pacientes contam no Google",
+        "itens": [
+          { "texto": "O atendimento é sempre acolhedor, humano e extremamente competente.", "autor": "Diva C.", "contexto": "Avaliação no Google" },
+          { "texto": "Em 2023, às vésperas de uma prova importante, ela foi essencial pra minha recuperação.", "autor": "Mariana O.", "contexto": "Voltou com uma nova lesão" },
+          { "texto": "Tem sido ótima hidroterapia. Poder alterar o programado também é ótimo, conhecer pessoas novas.", "autor": "Jorge K.", "contexto": "Hidroterapia" }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Dúvidas antes da primeira sessão",
+        "itens": [
+          { "p": "Quais convênios vocês atendem?", "r": "Mais de 40, entre eles Saúde Caixa, Amil, Omint, Care Plus, Gama, Fusex, CBMDF, Plan Assiste, Pró-Saúde TJDFT e STF-Med. A cobertura muda por tratamento: mande a carteirinha que a recepção confere." },
+          { "p": "Preciso de pedido médico?", "r": "Pelo convênio, sim: é ele que libera as sessões. No particular, a recepção orienta como começar." },
+          { "p": "A piscina é aquecida?", "r": "Sim, coberta e aquecida, com borda alta e corrimão para entrar com segurança." },
+          { "p": "Tem acessibilidade?", "r": "Tem elevador e banheiro adaptado. Dá para chegar de muleta, andador ou cadeira de rodas." },
+          { "p": "Vocês fazem atendimento em casa?", "r": "Sim, há atendimento home care. Fale com a recepção para ver a região e os horários." },
+          { "p": "Além da fisioterapia, o que mais tem?", "r": "Nutrição, psicologia e psicopedagogia, no mesmo endereço." }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica",
+        "imagem": "midia/recepcao.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Comece pelo pedido médico",
+        "lead": "Mande uma foto do pedido e da carteirinha. A recepção confere o convênio e sugere os horários.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "assinatura",
+      "data": {
+        "links": [
+          { "texto": "Tratamentos", "href": "#tratamentos" },
+          { "texto": "Estrutura", "href": "#estrutura" },
+          { "texto": "Dúvidas", "href": "#faq" }
+        ]
+      }
+    }
+  ]
+}

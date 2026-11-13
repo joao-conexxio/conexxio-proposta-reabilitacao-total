@@ -1,0 +1,23 @@
+{
+  "candidatas": [
+    {
+      "arquivo": "midia/cand-01.jpg",
+      "largura": 1400,
+      "altura": 934,
+      "origem": "http://clinicareabilitacaototal.com.br/wp-content/uploads/2020/03/ClinicaFisioReabilitacaoTotal-113.jpg"
+    },
+    {
+      "arquivo": "midia/cand-02.jpg",
+      "largura": 1400,
+      "altura": 1043,
+      "origem": "http://clinicareabilitacaototal.com.br/wp-content/uploads/2020/03/ClinicaFisioReabilitacaoTotal-106-1.jpg"
+    },
+    {
+      "arquivo": "midia/cand-03.jpg",
+      "largura": 309,
+      "altura": 315,
+      "origem": "https://clinicareabilitacaototal.com.br/wp-content/uploads/2020/03/logo-whats.png"
+    }
+  ],
+  "folha": "midia/folha.png"
+}

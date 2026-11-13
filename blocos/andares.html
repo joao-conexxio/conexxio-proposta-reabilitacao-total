@@ -1,0 +1,60 @@
+<section class="blk-and" id="estrutura">
+  <div class="wrap blk-and__grid">
+    <div class="blk-and__cab">
+      <p class="blk-and__eyebrow" data-reveal>Estrutura</p>
+      <h2 class="blk-and__titulo" data-reveal>A piscina já ficou em outro espaço. Hoje está no mesmo prédio que o ginásio.</h2>
+      <p class="blk-and__lead" data-acende>A Reabilitação Total começou numa sala pequena, com a hidroterapia em outro lugar. Isso atrapalhava o acompanhamento: quem cuidava do paciente na água e quem cuidava no solo mal se cruzavam.</p>
+      <p class="blk-and__lead" data-acende>Hoje são três pavimentos no mesmo prédio da 716 Norte, com elevador e banheiro adaptado. Quem combina piscina, ginásio e pilates faz tudo no mesmo endereço, com a mesma equipe trocando informação.</p>
+      <p class="blk-and__nota" data-reveal><span class="blk-and__ic"><!--icone:check--></span>Elevador e banheiro adaptado para quem chega de muleta, andador ou cadeira de rodas.</p>
+    </div>
+    <ul class="blk-and__fotos">
+      <li class="blk-and__item blk-and__item--grande" data-reveal style="--d:0ms">
+        <!--foto:midia/piscina-2.jpg|Piscina coberta da clínica, com borda elevada, escada com corrimão e materiais de hidroterapia ao fundo-->
+        <div class="blk-and__leg"><span class="blk-and__ic"><!--icone:gota--></span><div><h3>Piscina coberta e aquecida</h3><p>Hidroterapia o ano inteiro, com borda alta e corrimão para entrar com segurança.</p></div></div>
+      </li>
+      <li class="blk-and__item" data-reveal style="--d:90ms">
+        <!--foto:midia/ginasio-2.jpg|Ginásio da clínica com macas, bolas suíças e aparelhos de musculação sob teto de madeira-->
+        <div class="blk-and__leg"><span class="blk-and__ic"><!--icone:osso--></span><div><h3>Ginásio e miniacademia</h3><p>Força, equilíbrio e o treino de volta ao esporte.</p></div></div>
+      </li>
+      <li class="blk-and__item" data-reveal style="--d:180ms">
+        <!--foto:midia/pilates-2.jpg|Estúdio de pilates com cadillac, reformer e chair diante de janelas amplas-->
+        <div class="blk-and__leg"><span class="blk-and__ic"><!--icone:coluna--></span><div><h3>Estúdio de pilates</h3><p>Aparelhos completos, com luz natural.</p></div></div>
+      </li>
+      <li class="blk-and__item" data-reveal style="--d:270ms">
+        <!--foto:midia/acupuntura.jpg|Sala de acupuntura com maca, carrinho de materiais e pintura oriental na parede-->
+        <div class="blk-and__leg"><span class="blk-and__ic"><!--icone:folha--></span><div><h3>Acupuntura</h3><p>Sala própria, separada do ginásio.</p></div></div>
+      </li>
+      <li class="blk-and__item" data-reveal style="--d:360ms">
+        <!--foto:midia/sala-rpg.jpg|Sala de atendimento com macas, bolas suíças e espaldar diante de janelas amplas-->
+        <div class="blk-and__leg"><span class="blk-and__ic"><!--icone:coluna--></span><div><h3>RPG e salas de atendimento</h3><p>Para a sessão individual, longe do movimento do ginásio.</p></div></div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<style>
+.blk-and{padding-block:var(--sp-section)}
+.blk-and__grid{display:grid;gap:var(--sp-5)}
+.blk-and__eyebrow{margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-and__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-and__lead{margin:var(--sp-3) 0 0;font-size:1.08rem;line-height:1.6;color:var(--ink)}
+.blk-and__nota{display:flex;gap:var(--sp-2);align-items:flex-start;margin:var(--sp-4) 0 0;padding:var(--sp-3);border-radius:calc(var(--radius) / 2);background:color-mix(in srgb,var(--brand) 7%,var(--bg));color:var(--ink);line-height:1.5}
+.blk-and__ic{flex:none;display:inline-flex;width:1.6rem;height:1.6rem;color:var(--brand)}
+.blk-and__ic svg{width:100%;height:100%}
+.blk-and__fotos{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-2);grid-template-columns:1fr}
+.blk-and__item{position:relative;border-radius:calc(var(--radius) / 2);overflow:hidden;background:var(--bg-2)}
+.blk-and__item .foto{display:block;aspect-ratio:4/3;margin:0}
+.blk-and__item .foto img{width:100%;height:100%;object-fit:cover;display:block}
+.blk-and__leg{display:flex;gap:var(--sp-2);align-items:flex-start;padding:var(--sp-3);background:var(--bg);border:1px solid color-mix(in srgb,var(--brand) 14%,transparent);border-top:0;border-radius:0 0 calc(var(--radius) / 2) calc(var(--radius) / 2)}
+.blk-and__leg h3{margin:0 0 .2rem;font-family:var(--f-display);font-size:1.15rem;line-height:1.25;color:var(--ink)}
+.blk-and__leg p{margin:0;font-size:.95rem;line-height:1.45;color:color-mix(in srgb,var(--ink) 75%,transparent)}
+@media (min-width:640px){
+  .blk-and__fotos{grid-template-columns:repeat(2,1fr)}
+  .blk-and__item--grande{grid-column:span 2}
+  .blk-and__item--grande .foto{aspect-ratio:16/8}
+}
+@media (min-width:1024px){
+  .blk-and__grid{grid-template-columns:minmax(0,5fr) minmax(0,7fr);align-items:start}
+  .blk-and__cab{position:sticky;top:6rem}
+}
+</style>
